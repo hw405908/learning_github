@@ -20,6 +20,7 @@ ActiveRecord::Schema[7.1].define(version: 2024_04_16_094303) do
     t.index ["user_id"], name: "index_notes_on_user_id"
   end
 
+# ActiveRecord::Schema[7.1].define(version: 2024_04_16_093708) do
   create_table "posts", force: :cascade do |t|
     t.string "title"
     t.string "body"
